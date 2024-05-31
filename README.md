@@ -1,3 +1,30 @@
+## .env
+DB_NAME=login
+DB_USER=postgres
+DB_PASSWORD=123456
+# Environment variables declared in this file are automatically made available to Prisma.
+# See the documentation for more detail: https://pris.ly/d/prisma-schema#accessing-environment-variables-from-the-schema
+
+# Prisma supports the native connection string format for PostgreSQL, MySQL, SQLite, SQL Server, MongoDB and CockroachDB.
+# See the documentation for all the connection string options: https://pris.ly/d/connection-strings
+
+DATABASE_URL="postgresql://postgres:123456@localhost:5432/login?schema=public"
+
+RESEND_API_KEY=""
+
+AUTH_SECRET=""
+
+GITHUB_CLIENT_ID=""
+GITHUB_CLIENT_SECRET=""
+
+GOOGLE_CLIENT_ID=""
+GOOGLE_CLIENT_SECRET=""
+
+
+NEXTAUTH_URL="http://localhost:3000"
+AUTH_TRUST_HOST="http://localhost:3000"
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
